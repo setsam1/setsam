@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #fffdf9;
+  font-family: 'Pretendard', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  max-width: 500px;
+  line-height: 1.6;
+  margin: 0 1rem 2rem;
+}
+
+.email-link {
+  margin-top: 2rem;
+  font-size: 1rem;
+  text-decoration: underline;
+  color: #555;
+  cursor: pointer;
+}
+
+.email-link:hover {
+  color: #000;
+}
